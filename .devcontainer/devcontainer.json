@@ -8,12 +8,20 @@
 			"ghcr.io/devcontainers/features/azure-cli:1": {"version": "latest"}, 
 			"ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	    },
-		"extensions": [	
-			//"github.vscode-pull-request-github",	
-			//"eamodio.gitlens",
-			"mhutchie.git-graph",
-			"ms-dotnettools.dotnet-interactive-vscode"
-		],	  		
+	
+		"customizations": 
+		{
+			"vscode": 
+			{
+				"extensions": 
+				[	
+					"github.copilot",
+					"mhutchie.git-graph",
+					"ms-dotnettools.dotnet-interactive-vscode"
+				]	  		
+			}
+		},
+		
 	//
 	//current default CS has everything needed so no extra items to install at this time 1-6-21 
 	//    "dockerFile": "Dockerfile",
