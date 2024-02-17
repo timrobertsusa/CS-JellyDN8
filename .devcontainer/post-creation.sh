@@ -1,6 +1,6 @@
 REPO_NAME=$(basename "$(git remote get-url origin)" .git)
 printf "Start Log Codespace build $REPO_NAME\n" > /workspaces/$REPO_NAME/CSBuildLog.txt
-printf "Build Date: %s\n" "$(date '+%Y-%m-%d.%T')">> /workspaces/$REPO_NAME/CSBuildLog.txt
+printf "Build Date.Time: %s\n" "$(date '+%Y-%m-%d.%T')">> /workspaces/$REPO_NAME/CSBuildLog.txt
 
 ################
 printf "BEFORE CD\n" >> /workspaces/$REPO_NAME/CSBuildLog.txt
