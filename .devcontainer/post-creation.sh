@@ -16,3 +16,6 @@ printf "BEFORE remove file\n" >> /workspaces/BigLog.txt
 rm dotnet.tar.gz
 
 printf "End of Script File\n" >> /workspaces/BigLog.txt
+################
+REPO_NAME=$(basename "$(git remote get-url origin)" .git)
+printf "Repo Name: $REPO_NAME\n" >> /workspaces/BigLog.txt
