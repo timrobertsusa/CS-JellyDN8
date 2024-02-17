@@ -1,2 +1,2 @@
-# myCS-0124
+# dn8 jammy jelly ubuntu
 CS Devcontainer template
