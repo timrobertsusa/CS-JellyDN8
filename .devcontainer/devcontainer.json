@@ -42,3 +42,4 @@
 	"postCreateCommand": "sudo bash ./.devcontainer/post-create.sh",
 
 	"containerEnv": { "DOGVAR": "Cosmo" }
+}
