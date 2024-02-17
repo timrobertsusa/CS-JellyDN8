@@ -1,5 +1,8 @@
 {	
-	"name": "MSFTJim .Net 8 Codespace Defaults", 
+	"name": "timrobertsusa .Net 8 Codespace Defaults", 
+	// using CS defaults
+	"image": "mcr.microsoft.com/devcontainers/dotnet:8.0-jammy",	
+	// "forwardPorts": [5100, 5200], 
 	
 	"image": "mcr.microsoft.com/devcontainers/dotnet:8.0-jammy",	
 	
